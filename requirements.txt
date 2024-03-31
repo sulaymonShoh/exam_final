@@ -3,3 +3,4 @@ Django==5.0.3
 django-rest-authtoken==2.1.4
 djangorestframework==3.15.1
 drf-yasg==1.21.7
+django-filter~=24.2
