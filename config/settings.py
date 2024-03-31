@@ -39,6 +39,7 @@ DJANGO_APPS = [
 ]
 USER_APPS = [
     "apps.users",
+    "apps.vacancy",
 ]
 THIRD_PARTY_APPS = [
     "rest_framework",

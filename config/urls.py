@@ -27,6 +27,7 @@ from config.swagger import schema_view
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('api/v1/users/', include('apps.users.urls')),
+    path('api/v1/vacancy/', include('apps.vacancy.urls')),
 
     path('auth/', include('rest_authtoken.urls')),
 
