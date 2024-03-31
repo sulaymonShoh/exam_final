@@ -29,10 +29,6 @@ class BaseModel(models.Model):
     def get_deleted_at(self):
         return self.deleted_at or None
 
-    @property
-    def is_deleted(self):
-        return self.deleted_at is not None
-
     class Meta:
         abstract = True
 
