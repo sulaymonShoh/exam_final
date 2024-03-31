@@ -4,5 +4,5 @@ from apps.users.models import CustomUser
 
 class UserRetrieveSerializer(ModelSerializer):
     class Meta:
-        model = CustomUser.objects.all()
+        model = CustomUser
         fields = ("id", "username", "email")
